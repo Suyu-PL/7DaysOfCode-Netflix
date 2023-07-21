@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Netflix</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Header | Navegação -->
+    <header>
+      <div class="header__logo">
+        <img src="../img/logo1.png" alt="Logo Netflix" />
+      </div>
+      <div class="header__menu">
+              <div class="header__menu--left">
+                <ul>
+                  <li>Início</li>
+                  <li>Séries</li>
+                  <li>Filmes</li>
+                  <li>Bombando</li>
+                  <li>Minha lista</li>
+                </ul>
+              </div>
+              <div class="header__menu--right">
+                <ul>
+                  <li><i class="fas fa-search"></i></li>
+                  <li><i class="fas fa-bell"></i></li>
+                  <li class="header__user">
+                    <img src="../img/user1.png" alt="Avatar usuário" />
+                    <i class="fas fa-sort-down"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+    </header>
+     <!-- Fim do Header | Navegação -->
+     <div class="app__background">
+      <div class="app__content">
+        <img src="../img/poster1.png" alt="SpiderHead">
+      </div>
+    </div>
+          <!-- Trilho – sem animação  -->
+        <div class="category">
+          <p class="category__title">Minha lista</p>
+          <section>
+            <div class="item">
+              <img src="../img/MyList/poster_01.png" alt="BoJack Horseman" />
+            </div>
+            <div class="item">
+              <img src="../img/MyList/poster_02.png" alt="Ozark" />
+            </div>
+            <div class="item">
+              <img src="../img/MyList/poster_03.png" alt="A vizinha da mulher na janela" />
+            </div>
+            <div class="item">
+              <img src="../img/MyList/poster_04.png" alt="Breaking bad" />
+            </div>
+            <div class="item">
+              <img src="../img/MyList/poster_05.png" alt="The end of the f***ink world" />
+            </div>
+          </section>
+        </div>
+        <!-- Fim do Trilho – sem animação  --> 
+        <!-- Trilho – com animação hover -->
+        <div class="category">
+
+          <p class='category__title'>Em alta</p>
+          <section>
+            <div class="item -animation">
+              <img src="../img/top10/poster_01.png" alt="Stranger things" />
+            </div>
+            <div class="item -animation">
+              <img src="../img/top10/poster_02.png" alt="The umbrella academy" />
+            </div>
+            <div class="item -animation">
+              <img src="../img/top10/poster_03.png" alt="Peaky Blinders" />
+            </div>
+            <div class="item -animation">
+              <img src="../img/top10/poster_04.png" alt="Arremessando alto" />
+            </div>
+            <div class="item -animation">
+              <img src="../img/top10/poster_05.png" alt="Amor e gelato" />
+            </div>
+          </section>
+        </div>
+      <!-- Fim do Trilho – com animação hover -->
+      <!-- Trilho – com animação e efeito slider  -->
+      <div class="category">
+        <p class="category__title">Séries excêntricas de humor ácido</p>
+
+        <div class="wrapper">
+          <section id="section1">
+            <a href="#section3" class="arrow__btn"></a>
+
+            <div class="item -animation -animation">
+              <img src="../img/humor/poster_01.png" alt="Queen Loretta" />
+            </div>
+
+            <div class="item -animation">
+              <img src="../img/humor/poster_02.png" alt="As 7 vidas de Lea" />
+            </div>
+
+            <div class="item -animation">
+              <img src="../img/humor/poster_03.png" alt="The good place" />
+            </div>
+            <div class="item -animation">
+              <img src="../img/humor/poster_05.png" alt="Young Royals" />
+            </div>
+            <div class="item -animation">
+              <img src="../img/humor/poster_06.png" alt="Dark" />
+            </div>
+            <a href="#section2" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+          </section>
+          <section id="section2">
+            <a href="#section1" class="arrow__btn"><i class="fas fa-angle-left"></i></a>
+            <div class="item -animation">
+              <img src="../img/humor/poster_07.png" alt="Bem vindos ao Éden" />
+            </div>
+            <div class="item -animation">
+              <img src="../img/humor/poster_08.png" alt="UnbreakAble Kimmy Schmidt" />
+            </div>
+            <div class="item -animation">
+              <img src="../img/humor/poster_09.png" alt="Elize Matsunaga - Era uma vez um crime" />
+            </div>
+            <div class="item -animation">
+              <img src="../img/humor/poster_10.png" alt="The Ted Bundy Tapes" />
+            </div>
+            <div class="item -animation">
+              <img src="../img/humor/poster_12.png" alt="Gabriel Fluffy" />
+            </div>
+            <a href="#section3" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+          </section>
+          <section id="section3">
+            <a href="#section2" class="arrow__btn"><i class="fas fa-angle-left"></i></a>
+            <div class="item -animation">
+              <img src="../img/humor/poster_13.png" alt="Polar" />
+            </div>
+            <div class="item -animation">
+              <img src="../img/humor/poster_14.png" alt="Fyre" />
+            </div>
+            <div class="item -animation">
+              <img src="../img/humor/poster_15.png" alt="Friends from college" />
+            </div>
+            <div class="item -animation">
+              <img src="../img/humor/poster_16.png" alt="Riverdale" />
+            </div>
+            <div class="item -animation">
+              <img src="../img/humor/poster_17.png" alt="Velvet buzzsaw" />
+            </div>
+            <a href="#section1" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+          </section>
+        </div>
+      </div>
+      <!-- Fim do Trilho – com animação e efeito slider  -->
+      <!-- Footer -->
+      <footer>
+        <div class="social-links">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+  
+        <div class="link-content">
+          <div class="link-content__info">
+            <ul>
+              <li>Idioma e legendas</li>
+              <li>Imprensa</li>
+              <li>Privacidade</li>
+              <li>Entre em contato</li>
+            </ul>
+            <ul>
+              <li>Audiodescrição</li>
+              <li>Relações com investidores</li>
+              <li>Avisos legais</li>
+            </ul>
+            <ul>
+              <li>Centro de ajuda</li>
+              <li>Carreiras</li>
+              <li>Preferência de cookies</li>
+            </ul>
+            <ul>
+              <li>Cartão pré-pago</li>
+              <li>Termos de uso</li>
+              <li>informações corporativas</li>
+            </ul>
+          </div>
+        </div>
+          <div class="link-content__service">
+            <button class="link-content__service-code">Código do serviço</button>
+          </div>
+          <div class="link-content__copyright">
+            <span>© 1997-2022 Netflix, Inc.&nbsp;&nbsp;&lrm;</span>
+          </div>
+      </footer> 
+      <!-- Fim do Footer -->
+    </body>
+</html>
